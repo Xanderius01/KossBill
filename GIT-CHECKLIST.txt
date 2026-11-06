@@ -1,0 +1,16 @@
+KossBill Modul 8 — Git checklist
+
+1. Buka terminal di folder repository.
+2. Periksa status: git status
+3. Buat branch baru (jika belum ada): git checkout -b feat/dynamic-data
+4. Periksa perubahan: git diff --check
+5. Commit bertahap:
+   git add index.html style.css script.js data README.md TESTING.md AI-PROMPT-LOG.md GIT-CHECKLIST.txt
+   git commit -m "feat: load kos listings from JSON"
+   git add .
+   git commit -m "feat: improve form validation and UX states"
+6. Push branch: git push -u origin feat/dynamic-data
+7. Buat Pull Request ke branch utama setelah tes manual selesai.
+
+Jangan menyalin perintah commit kedua jika tidak ada perubahan baru untuk di-commit.
+Jangan mengunggah file .env, API keys, token, atau credential.
